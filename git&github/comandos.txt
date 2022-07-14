@@ -1,0 +1,51 @@
+
+Criar uma pasta no area de trabalho... 
+Inicia o terminal Bash pela repositorio criado...
+Dentro do terminal bash digiti o comando (git init) voltando a pasta exiba os arquivos oculto. A pasta (git) ira aparecer...
+
+
+Comandos:
+git init -> 
+git status -> Verifica os statuas do git; Diz quais arquivoz firam incluidos no controle de versão e quais não foram. 
+
+Adicionando arquivos ao controle de verão:
+git add "Nome do repositorio" -> versona 1 repositorio por vez.
+git add . -> para versonar varios aquivos, tabem atualiza os arquivos modoficados
+
+Criando versões com o commit:
+git commit -m "commit inical" -> cria versões do código
+	   (-m Parameto usado para passar um mensagem) ("" Aspas dupla para usar uma mensagem para reprintar o que foi feito naquela versão)
+
+Configurando:
+git config --global user.email "you@example.com" -> O email usado no github
+git config --global user.name "Your Name"-> O nome vai estar atrelado a versão do codgo enviado
+
+    criar um novo  arquivo  no github depois copiar o linke do arquivo.
+git remote add origin -> cola o like do arquivo criado no github -> define para onde o codgo sera enviado.
+
+Adicionando com o push:
+git push --set-upstream origin master -> Define para qual branches  esta enviando o codgo 
+
+     Ciclo de atualização dos codgos
+git add . ou novo do arquivo -> Adiciona  a atulização 
+git status -> Verifica a atulização
+git commit -m "A nova funcionalidade" -> 
+git poush -> Sobe o arquivo
+
+   Historico de atuilização 
+git reflog -> Mostra as versões adicionadas
+
+   Navegando entre versões 
+git reset --hard mais o ID do versonamento ->  Para voltar a versão atual o passo é o mesmo.
+
+  Branches
+git branch -> Branch disponiveis
+git brach staging -> ( staging é apenas o nome dado a uma branch ainda não estada. pode ser outro nome!).
+git branch -> Lista a nova branch. a branch q estiver com asterisco e cor verde é a que está em uso.
+git checkout o nome da branch -> Muda a branch  
+
+
+
+
+
+
